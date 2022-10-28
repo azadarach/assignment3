@@ -19,7 +19,7 @@ h1 strong {
 .grid-container {
     display: grid;
     background-color: #50b565;
-    width: 1130px; /* Meant to be viewed at max width */
+    width: 1150px; /* Meant to be viewed at max width */
     padding: 20px;
     grid-template-rows: 580px 140px; /* Size of the box rows. Row 1 = first number etc. */
     grid-gap: 10px; /* Gap between the grids */
@@ -90,7 +90,7 @@ h1 strong {
 
   .text-box {
     font-family: 'Sacramento';
-    font-size: 30px;
+    font-size: 40px;
     background-color: rgb(189, 236, 195);
     grid-column-start: 1;
     grid-column-end: 2;
@@ -105,10 +105,6 @@ h1 strong {
     grid-column-end: 3;
     border: 4px solid rgb(39, 86, 44);
   }
-
-  div audio {
-  
-  } 
 
   .shake-bottom:hover {-webkit-animation:shake-bottom .8s cubic-bezier(.455,.03,.515,.955) both;animation:shake-bottom .8s cubic-bezier(.455,.03,.515,.955) both}
 
