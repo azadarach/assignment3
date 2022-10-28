@@ -1,0 +1,115 @@
+/* There will be a lot of commenting in this so I am able to keep track of my style changes, you don't have to read them all! */
+
+body {
+  background-color: #bae7c3;
+}
+
+h1 {
+    font-family: 'Sacramento';
+    font-size: 110px;
+    font-weight: 100; /* makes it not bold/strong */
+    /* text-align: left; aligns 'a sunny day.' to the left of the screen */
+    margin: 15px;
+}
+
+h1 strong {
+  color: rgb(236, 196, 16);
+}
+
+.grid-container {
+    display: grid;
+    background-color: #50b565;
+    width: 1130px; /* Meant to be viewed at max width */
+    padding: 20px;
+    grid-template-rows: 580px 140px; /* Size of the box rows. Row 1 = first number etc. */
+    grid-gap: 10px; /* Gap between the grids */
+    border: 6px solid green;
+    margin-top: 30px;
+    margin-bottom: 22px;
+    margin-left: 15px;
+  }
+  
+  .grid-container > div {
+    text-align: center; /* Alligns the text in the centre of the box. You can change this. */
+    padding: 36px; /* Brings the text down from the top of the box so it is also centred vertically */
+  }
+
+  .image-container {
+    vertical-align: bottom;
+  }
+  
+  .grass {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .grass2 {
+    position: relative;
+    right: 80px;
+  }
+
+  .grass3 {
+    position: relative;
+    left: 80px;
+  }
+
+  .grass4 {
+    position: relative;
+    right: 0px;
+  }
+
+  .grass5 {
+    position: relative;
+    margin-top: 50px;
+    left: 60px;
+  }
+
+  .grass6 {
+    position: relative;
+    margin-top: 50px;
+    right: 50px;
+  }
+
+  .grass7 {
+    position: relative;
+    margin-top: 60px;
+    right: 10px;
+  }
+
+  .grass8 {
+    position: relative;
+    margin-top: 30px;
+    left: 50px;
+  }
+
+  .grass9 {
+    left: 1000px;
+  }
+
+  .text-box {
+    font-family: 'Sacramento';
+    font-size: 30px;
+    background-color: rgb(189, 236, 195);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border: 4px solid rgb(39, 86, 44);
+  }
+
+  .audio-box {
+    font-family: 'Sacramento';
+    font-size: 21px;
+    background-color: rgb(189, 236, 195);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    border: 4px solid rgb(39, 86, 44);
+  }
+
+  div audio {
+  
+  } 
+
+  .shake-bottom:hover {-webkit-animation:shake-bottom .8s cubic-bezier(.455,.03,.515,.955) both;animation:shake-bottom .8s cubic-bezier(.455,.03,.515,.955) both}
+
+  @-webkit-keyframes shake-bottom{0%,100%{-webkit-transform:rotate(0deg);transform:rotate(0deg);-webkit-transform-origin:50% 100%;transform-origin:50% 100%}10%{-webkit-transform:rotate(2deg);transform:rotate(2deg)}20%,40%,60%{-webkit-transform:rotate(-4deg);transform:rotate(-4deg)}30%,50%,70%{-webkit-transform:rotate(4deg);transform:rotate(4deg)}80%{-webkit-transform:rotate(-2deg);transform:rotate(-2deg)}90%{-webkit-transform:rotate(2deg);transform:rotate(2deg)}}@keyframes shake-bottom{0%,100%{-webkit-transform:rotate(0deg);transform:rotate(0deg);-webkit-transform-origin:50% 100%;transform-origin:50% 100%}10%{-webkit-transform:rotate(2deg);transform:rotate(2deg)}20%,40%,60%{-webkit-transform:rotate(-4deg);transform:rotate(-4deg)}30%,50%,70%{-webkit-transform:rotate(4deg);transform:rotate(4deg)}80%{-webkit-transform:rotate(-2deg);transform:rotate(-2deg)}90%{-webkit-transform:rotate(2deg);transform:rotate(2deg)}}
